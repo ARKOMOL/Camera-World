@@ -6,7 +6,7 @@ const Footer = () => {
       <div className='max-w-screen-xl mx-auto px-4'>
         <div className=' flex max-w-xs mx-auto items-center justify-between'>
           <a
-            href='https://github.com/shakilahmedatik'
+            href='https://facebook.com'
             className='text-gray-400 hover:text-gray-800 transition-colors duration-200'
           >
             <svg
@@ -21,7 +21,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href='https://github.com/shakilahmedatik'
+            href='https://twitter.com'
             className='text-gray-400 hover:text-gray-800 transition-colors duration-200'
           >
             <svg
@@ -36,7 +36,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href='https://github.com/shakilahmedatik'
+            href='https://github.com/ARKOMOL'
             className='text-gray-400 hover:text-gray-800 transition-colors duration-200'
           >
             <svg
@@ -51,7 +51,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href='https://github.com/shakilahmedatik'
+            href='https://linkedin.com'
             className='text-gray-400 hover:text-gray-800 transition-colors duration-200'
           >
             <svg
@@ -66,7 +66,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href='https://github.com/shakilahmedatik'
+            href='https://amazon.com'
             className='text-gray-400 hover:text-gray-800 transition-colors duration-200'
           >
             <svg
@@ -82,7 +82,7 @@ const Footer = () => {
           </a>
         </div>
         <div className='text-center text-cyan-600 pt-10 sm:pt-12 font-light flex items-center justify-center'>
-          All Rights Reserved By &copy; Crypto Cafe | 2022-2026
+          All Rights Reserved By &copy; Camera World By AR Komol || 2022
         </div>
       </div>
     </footer>
