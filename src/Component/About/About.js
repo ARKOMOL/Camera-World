@@ -2,11 +2,11 @@ import React from 'react';
 
 const About = () => {
   return (
-<div>
+<div className=''>
 <h1  className='text-5xl'>
     ABOUT US
        </h1>
-<div className='md:flex lg:flex'>
+<div className='  items-center justify-center md:flex lg:flex'>
      <div>
        <p>
        Canon U.S.A., Inc. 
@@ -18,7 +18,7 @@ Melville, NY 11747</p>
      </div>
 
 
-<div className='my-5'>
+<div className='my-5 mx-6'>
 <p>Canon U.S.A. Latin America Group
 One Canon Park</p>
 

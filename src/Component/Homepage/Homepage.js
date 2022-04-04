@@ -10,8 +10,11 @@ const Homepage = ({reviews}) => {
         
      <div className="grid  lg:grid-cols-2 sm:items-center">
      <div className='flex flex-col justify-center h-[80vh] items-center'>
-        <h1 className=' font-mono text-xl md:text-5xl '>
-          Welcome to Camera World <span className='text-6xl'>📸</span>
+        <h1 className=' font-mono text-xl md:text-5xl sm:text-4xl '>
+          Welcome to <br />Camera World <span className='text-6xl'>📸</span>
+        </h1>
+        <h1 className=' font-mono text-xl md:text-3xl'>
+          Your Dreams Our Responsiblity to fullfil your dreams
         </h1>
         <button className='py-2 px-3  mt-3 rounded-full bg-teal-200 border-none'>
           Explore Camera
