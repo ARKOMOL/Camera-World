@@ -41,7 +41,7 @@ const data =[
   export default function LineCharts() {
 
     return (
-        <ResponsiveContainer width="100%" >
+        <ResponsiveContainer className='bg-slate-500 mb-3' width="100%" aspect={3}>
           <LineChart
             width={500}
             height={300}
@@ -58,7 +58,7 @@ const data =[
             <YAxis />
             <Tooltip />
             <Legend />
-            <Line type="monotone" dataKey="sell" stroke="#8884d8" strokeDasharray="5 5" />
+            <Line type="monotone" dataKey="sell" stroke="#95D1CC" strokeDasharray="5 5" />
             <Line type="monotone" dataKey="investment" stroke="#82ca9d" strokeDasharray="3 4 5 2" />
           </LineChart>
         </ResponsiveContainer>

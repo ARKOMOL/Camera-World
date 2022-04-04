@@ -43,7 +43,7 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
       
          
 
-          <ResponsiveContainer width="100%" aspect={3}>
+          <ResponsiveContainer className='w-50 bg-slate-400' width="100%" aspect={3}>
         <BarChart
           width={500}
           height={300}
@@ -60,7 +60,7 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Resp
           <YAxis />
           <Tooltip />
           <Legend />
-          <Bar dataKey="revenue" fill="#8884d8" />
+          <Bar dataKey="revenue" fill="#5584AC" />
           <Bar dataKey="investment" fill="#82ca9d" />
         </BarChart>
       </ResponsiveContainer>
