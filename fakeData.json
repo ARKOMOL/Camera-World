@@ -1,44 +1,50 @@
 [
     {
+        "id" :6,
+        "img" :"https://images.unsplash.com/photo-1533425962554-06f6d8c4dacc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+        "name" : "Kuddus Ali",
+        "reviews":" this is 1st reviews",
+        "ratings": "4 star"
+
+    },
+    {
         "id" :1,
         "img" :"https://images.unsplash.com/photo-1533425962554-06f6d8c4dacc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "name" : "Kuddus Ali",
-        "reviewss":" this is 1st reviews",
+        "reviews":" this is 2nd reviews",
         "ratings": "4 star"
+
     },
     {
         "id" :2,
         "img" :"https://images.unsplash.com/photo-1533425962554-06f6d8c4dacc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "name" : "Kuddus Ali",
-        "reviewss":" this is 1st reviews",
+        "reviews":" this is 3rd reviews",
         "ratings": "4 star"
+
     },
     {
         "id" :3,
         "img" :"https://images.unsplash.com/photo-1533425962554-06f6d8c4dacc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "name" : "Kuddus Ali",
-        "reviewss":" this is 1st reviews",
+        "reviews":" this is 4th reviews",
         "ratings": "4 star"
+
     },
     {
         "id" :4,
         "img" :"https://images.unsplash.com/photo-1533425962554-06f6d8c4dacc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "name" : "Kuddus Ali",
-        "reviewss":" this is 1st reviews",
+        "reviews":" this is 5th reviews",
         "ratings": "4 star"
+
     },
     {
         "id" :5,
         "img" :"https://images.unsplash.com/photo-1533425962554-06f6d8c4dacc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         "name" : "Kuddus Ali",
-        "reviewss":" this is 1st reviews",
-        "ratings": "4 star"
-    },
-    {
-        "id" :6,
-        "img" :"https://images.unsplash.com/photo-1533425962554-06f6d8c4dacc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-        "name" : "Kuddus Ali",
-        "reviewss":" this is 1st reviews",
+        "reviews":" this is 6th reviews",
         "ratings": "4 star"
     }
+   
 ]

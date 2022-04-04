@@ -7,6 +7,7 @@ import DashBoard from './Component/Dashboard/DashBoard';
 import Blogs from './Component/Blogs/Blogs';
 import About from './Component/About/About';
 import NotFound from './Component/NotFound/NotFound';
+import FullReviews from './Component/FullReview/FullReviews';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
     <Header/>
       <Routes>
         <Route path='/' element={<Homepage/>}></Route>
-        <Route path='/reviews' element={<Riview/>}/>
+        <Route path='/reviews' element={<FullReviews/>}/>
         <Route path='/dashboard' element={<DashBoard/>}/>
         <Route path='/blogs' element={<Blogs/>}/>
         <Route path='/about' element={<About/>}/>

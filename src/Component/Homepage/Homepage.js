@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import FullReviews from '../FullReview/FullReviews'
+import Review from '../Reviews/Review'
 import Riview from '../Reviews/Review'
+import ReviewsDetails from '../Reviews/ReviewsDetails'
 // import Header from '../Header/Header'
 
-const Homepage = () => {
+const Homepage = ({reviews}) => {
   return (
     <div className=' md:px-16 py-8'>
         
@@ -24,11 +27,13 @@ const Homepage = () => {
      </div>
      {/* review part  */}
      <div>
+    
           <h1 className='py-2 text-3xl'>
             Customer Reviews
           </h1>
+          <Review/>
         <button className='bg-gray-300'>
-            <Link to='/reviews' element={<Riview/>}>
+            <Link to='/reviews' element={<FullReviews/>}>
             Show All Reviews
             </Link>
         </button>
