@@ -1,9 +1,12 @@
+
 import React from 'react';
+import BraChart from '../Charts/BarChart';
 
 const DashBoard = () => {
     return (
         <div>
-            <h1>this is dashobo</h1>
+            <BraChart/>
+            
         </div>
     );
 };
