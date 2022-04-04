@@ -1,4 +1,4 @@
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from 'recharts';
  const data =[
     {
         "month": "Mar",
@@ -40,7 +40,7 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
   export default function AreaCharts() {
    
     return (
-        <ResponsiveContainer width="100%" height="100%">
+        <ResponsiveContainer className="bg-gray-300" width="100%" aspect={3}>
           <AreaChart
             width={200}
             height={60}
@@ -52,7 +52,13 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
               bottom: 5,
             }}
           >
-            <Area type="monotone" dataKey="sell" stroke="#8884d8" fill="#8884d8" />
+                 <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip />
+            <Legend />
+            <Area type="monotone" dataKey="month" stroke="#8884d8" fill="#8884d8" />
+            <Area type="monotone" dataKey="investment" stroke="#8884d8" fill="#8884d8" />
+            <Area type="monotone" dataKey="revenue" stroke="#8884d8" fill="#8884d8" />
           </AreaChart>
         </ResponsiveContainer>
       );

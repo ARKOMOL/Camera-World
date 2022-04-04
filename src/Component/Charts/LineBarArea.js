@@ -1,5 +1,17 @@
 
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import {
+    ComposedChart,
+    Line,
+    Area,
+    Bar,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    Legend,
+    Scatter,
+    ResponsiveContainer,
+  } from 'recharts';
 const data =[
     {
         "month": "Mar",
@@ -38,32 +50,33 @@ const data =[
         "revenue": 61000
     },
 ];
-  export default function LineCharts() {
-
+  export default function LineBarAreaChart() {
+  
     return (
-        <ResponsiveContainer width="100%" >
-          <LineChart
+        <ResponsiveContainer width="100%" height="100%">
+          <ComposedChart
             width={500}
-            height={300}
+            height={400}
             data={data}
             margin={{
-              top: 5,
-              right: 30,
+              top: 20,
+              right: 20,
+              bottom: 20,
               left: 20,
-              bottom: 5,
             }}
           >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="name" />
+            <CartesianGrid stroke="#f5f5f5" />
+            <XAxis dataKey="name" scale="band" />
             <YAxis />
             <Tooltip />
             <Legend />
-            <Line type="monotone" dataKey="sell" stroke="#8884d8" strokeDasharray="5 5" />
-            <Line type="monotone" dataKey="investment" stroke="#82ca9d" strokeDasharray="3 4 5 2" />
-          </LineChart>
+            <Area type="monotone" dataKey="sell" fill="#8884d8" stroke="#8884d8" />
+            <Bar dataKey="investment" barSize={20} fill="#413ea0" />
+            <Line type="monotone" dataKey="revenue" stroke="#ff7300" />
+            <Scatter dataKey="month" fill="red" />
+          </ComposedChart>
         </ResponsiveContainer>
       );
-
 
 
   }
