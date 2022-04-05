@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useReviews from '../Hooks/ReviewsOfClient';
+import useReviews from '../Hooks/useReview';
 import FullReviewsDetails from './FullReviewsDetails';
 
 const FullReviews = () => {

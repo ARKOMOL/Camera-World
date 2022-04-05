@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import useReviews from '../Hooks/ReviewsOfClient';
+import useReviews from '../Hooks/useReview';
 import ReviewsDetails from './ReviewsDetails';
 
 
